@@ -1,11 +1,14 @@
 {
-  "name": "funda-business-scraper",
+  "name": "@bovenland/funda-business-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Scraper for Funda in Business",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Bert Spaan",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  }
 }
